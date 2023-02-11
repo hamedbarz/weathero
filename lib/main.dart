@@ -339,7 +339,7 @@ class _MyAppState extends State<MyApp> {
                 ),
               );
             } else if (snapshot.hasError) {
-              return ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("sssss"))) as Widget;
+              return  Text("خطایی رخ داده است.");
             } else {
               return Center(
                   child: JumpingDotsProgressIndicator(
